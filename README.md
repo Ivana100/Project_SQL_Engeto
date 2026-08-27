@@ -51,7 +51,8 @@ Obsahuje dodatečné ekonomické ukazatele pro evropské státy.
 
 ---
 
-# Tvorba primární finální tabulky `t_ivana_amranova_project_sql_primary_final`
+# Tvorba primární finální tabulky 
+`t_ivana_amranova_project_sql_primary_final`
 
 ## Zpracování mezd
 
@@ -109,9 +110,10 @@ Při následných výpočtech proto bylo nutné tuto vlastnost zohlednit a před
 
 Například při analýze vývoje mezd byla data nejprve agregována na úroveň roku a odvětví pomocí `MAX()` nad hodnotou roční průměrné mzdy.
 
-# Tvorba sekundární finální tabulky `t_ivana_amranova_project_sql_secondary_final`
+# Tvorba sekundární finální tabulky 
+`t_ivana_amranova_project_sql_secondary_final`
 
-Tabulka t_ivana_amranova_project_SQL_secondary_final vznikla spojením tabulek `countries` a `economies` podle jednotlivých evropských krajin.
+Tabulka vznikla spojením tabulek `countries` a `economies` podle jednotlivých evropských krajin.
 
 ---
 
